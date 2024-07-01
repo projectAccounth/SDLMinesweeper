@@ -5,7 +5,7 @@
 Game::Game() {
 	SDL_Init(SDL_INIT_EVERYTHING);
 
-	window = SDL_CreateWindow("MineSweeper", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, 4);
+	window = SDL_CreateWindow("bosnia idk", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, 4);
 	if (!window) throw GAME_EXCEPTION("SDL couldn't create Window!");
 
 	render = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
