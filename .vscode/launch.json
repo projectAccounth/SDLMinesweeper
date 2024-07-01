@@ -1,0 +1,10 @@
+{
+    "name": "",
+    "type": "cppvsdbg",
+    "request": "launch",
+    "program": "${workspaceFolder}\\main.exe",
+    "launch": "program",
+    "configurations": [
+    
+    ]
+}
